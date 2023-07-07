@@ -105,6 +105,7 @@ input[type="email"]:-ms-input-placeholder {
 }
 #nav-bar ul li:hover {
   color: var(--colorPrimario1);
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -360,6 +361,9 @@ input[type="email"]:-ms-input-placeholder {
   }
 }
 @media screen and (min-width: 800px) {
+  .material-symbols-outlined {
+    display: none;
+  }
   #header {
     padding-left: 6.25rem;
     padding-right: 6.25rem;
