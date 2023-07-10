@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -37,14 +38,14 @@
   <body>
     <header id="header">
       <div header-picture>
-        <img class="logo" id="header-img" src="./images/logo.svg" alt="logo" />
+        <img class="logo" id="header-img" src="https://pastoralexandercastro.github.io/freecodecamp/images/logo.svg" alt="logo" />
       </div>
       <nav id="nav-bar">
         <ul>
-          <li><a href="#about" class="nav-link">Home</a></li>
+           <li><a href="#home" class="nav-link">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#articles" class="nav-link">Articles</a></li>
-          <li><a href="#blog" class="nav-link">Blog</a></li>
+          
           <li><a href="#careers" class="nav-link">Careers</a></li>
         </ul>
       </nav>
@@ -52,8 +53,8 @@
       <button class="button--none">Request Invite</button>
     </header>
     <main>
-      <section class="hero">
-        <div class="hero-picture">
+      <section  class="hero">
+        <div id="home" class="hero-picture">
           <!-- <img class="hero-image" src="./images/image-mockups.png" alt="" /> -->
         </div>
         <div class="hero-container">
@@ -63,25 +64,26 @@
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <form hero-form action="">
+          <form id="form" hero-form action="https://www.freecodecamp.com/email-submit">
             <label id="email-label" for="email"
               ><input
                 placeholder="Registrate con tu correo"
                 id="email"
                 type="email"
-                name="correo"
+                name="email"
                 required
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                 autocomplete="email"
             /></label>
+           <input id="submit"  class="button"type="submit" value="Enviar">
           </form>
-          <button class="button">Request Invite</button>
+          
         </div>
       </section>
 
       <section class="product-list">
         <div class="product-list-contenido">
-          <h2 class="product-list-headding">Why choose Easybank?</h2>
+          <h2 id="about" class="product-list-headding">Why choose Easybank?</h2>
           <p class="product-list-parrafo">
             We leverage Open Banking to turn your bank account into your
             financial hub. Control your finances like never before.
@@ -91,7 +93,7 @@
           <div class="product-list-item2">
             <img
               class="product-list-image"
-              src="./images/icon-budgeting.svg"
+              src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-budgeting.svg"
               alt="budgeting"
             />
             <h3 class="product-list-subtitle">Simple Budgeting</h3>
@@ -103,7 +105,7 @@
           <div class="product-list-item2">
             <img
               class="product-list-image"
-              src="./images/icon-onboarding.svg"
+              src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-onboarding.svg"
               alt="onboarding"
             />
             <h3 class="product-list-subtitle">Fast Onboarding</h3>
@@ -115,7 +117,7 @@
           <div class="product-list-item2">
             <img
               class="product-list-image"
-              src="./images/icon-api.svg"
+              src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-api.svg"
               alt="Open Api"
             />
             <h3 class="product-list-subtitle">Open API</h3>
@@ -127,7 +129,7 @@
           <div class="product-list-item2">
             <img
               class="product-list-image"
-              src="./images/icon-online.svg"
+              src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-online.svg"
               alt="Online Banking"
             />
             <h3 class="product-list-subtitle">Online Banking</h3>
@@ -138,15 +140,15 @@
           </div>
         </section>
       </section>
-      <section class="articles--section">
+      <section id="articles" class="articles--section">
         <h2 class="articles--titulo">Latest Articles</h2>
         <section class="articles--contenedor">
           <article class="article">
-            <img
-              class="aritcle--imagen"
-              src="./images/image-currency.jpg"
-              alt=""
-            />
+          
+              
+               <iframe id="video"  src="https://www.youtube.com/embed/ZsEBMwH5UJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+           
 
             <div class="article--body">
               <p class="aritcle--autor">By Claire Robinson</p>
@@ -163,7 +165,7 @@
           <article class="article">
             <img
               class="aritcle--imagen"
-              src="./images/image-restaurant.jpg"
+              src="https://pastoralexandercastro.github.io/freecodecamp/images/image-restaurant.jpg"
               alt="restauran"
             />
 
@@ -181,7 +183,7 @@
           <article class="article">
             <img
               class="aritcle--imagen"
-              src="./images/image-plane.jpg"
+              src="https://pastoralexandercastro.github.io/freecodecamp/images/image-plane.jpg"
               alt="Ala de avion"
             />
             <div class="article--body">
@@ -198,7 +200,7 @@
           <article class="article">
             <img
               class="aritcle--imagen"
-              src="./images/image-confetti.jpg"
+              src="https://pastoralexandercastro.github.io/freecodecamp/images/image-confetti.jpg"
               alt="confetti"
             />
 
@@ -218,33 +220,33 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer id="careers" class="footer">
       <div class="footer-brand">
-        <img class="logo" src="./images/logo copy.svg" alt="logo easybank" />
+        <img class="logo" src="https://pastoralexandercastro.github.io/freecodecamp/images/logo%20copy.svg" alt="logo easybank" />
         <div class="footer-social-media">
           <img
             class="footer-social"
-            src="./images/icon-facebook.svg"
+            src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-facebook.svg"
             alt="facebook"
           />
           <img
             class="footer-social"
-            src="./images/icon-youtube.svg"
+            src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-youtube.svg"
             alt="youtube"
           />
           <img
             class="footer-social"
-            src="./images/icon-twitter.svg"
+            src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-twitter.svg"
             alt="twitter"
           />
           <img
             class="footer-social"
-            src="./images/icon-pinterest.svg"
+            src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-pinterest.svg"
             alt="pinterest"
           />
           <img
             class="footer-social"
-            src="./images/icon-instagram.svg"
+            src="https://pastoralexandercastro.github.io/freecodecamp/images/icon-instagram.svg"
             alt="istagram"
           />
         </div>
